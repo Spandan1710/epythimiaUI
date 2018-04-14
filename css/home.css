@@ -1,0 +1,47 @@
+#mainheader{
+    background-color: #1e1f13;
+}
+
+#loginDiv > .md-button{
+    color: #f9f9f9;
+}
+
+#loginDiv > .md-button:hover{
+    color: #ffffff;
+    background-color: black;
+}
+
+#registerDiv > .md-button{
+    color: #f9f9f9;
+}
+
+#registerDiv > .md-button:hover{
+    color: #ffffff;
+    background-color: black;
+}
+
+#offer{
+    color: white;
+}
+
+#logo > img{
+    height: auto;
+    max-height: inherit;
+}
+
+#logo{
+    margin-left: 1%;
+}
+
+#registerDiv{
+    border-right: solid 1px whitesmoke;
+}
+
+#loginDiv{
+    border-left: solid 1px whitesmoke;
+}
+
+md-card-title-text .center{
+    align-items: center;
+    text-align: center;
+}

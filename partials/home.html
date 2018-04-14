@@ -1,0 +1,94 @@
+<div id="mainheader" layout="row">
+    <div id="logo" flex="25">
+        <img src="img/logo.png"/>
+    </div>
+    <div flex="50">
+        <p id="offer">to be decided once we finalize what offer to give</p>
+    </div>
+    <div id="registerDiv" flex="13">
+        <md-button id="register" ng-click="redirectToRegister()">Register</md-button>
+    </div>
+    <div id="loginDiv" flex="12">
+        <md-button id="login" ng-click="redirectToLogin()">Sign In</md-button>
+    </div>
+</div>
+<div id="carousel" layout="row">
+    <md-card flex>
+        <jk-carousel data="hotItemsArray"
+                     item-template-url="'partials/flashitems.html'"
+                     max-width="1920"
+                     max-height="750"
+                     auto-slide="true"
+                     auto-slide-time="3000">
+
+        </jk-carousel>
+    </md-card>
+</div>
+<div layout="row">
+    <md-card flex>
+        <img ng-src="{{womenImg}}" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline center" >Women</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-actions layout="column" layout-align="start">
+            <md-button>Traditional</md-button>
+            <md-button>Tops & Tees</md-button>
+            <md-button>Dresses</md-button>
+            <md-button>Shoes</md-button>
+            <md-button>Watches</md-button>
+            <md-button>Handbags</md-button>
+            <md-button>Accessories</md-button>
+        </md-card-actions>
+    </md-card>
+    <md-card flex>
+        <img ng-src="{{menImg}}" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline center">Men</span>
+            </md-card-title-text>
+        </md-card-title>
+        </md-card-content>
+        <md-card-actions layout="column" layout-align="start">
+            <md-button>T-Shirts</md-button>
+            <md-button>Shirts</md-button>
+            <md-button>SportsWear</md-button>
+            <md-button>Jeans</md-button>
+            <md-button>Trousers</md-button>
+            <md-button>Traditional</md-button>
+            <md-button>Formals</md-button>
+        </md-card-actions>
+    </md-card>
+    <md-card flex>
+        <img ng-src="{{kidImg}}" class="md-card-image" alt="Washed Out">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline center">Kids</span>
+            </md-card-title-text>
+        </md-card-title>
+        <md-card-actions layout="column" layout-align="start">
+            <md-button>Dresses & Skirts</md-button>
+            <md-button>T-Shirts and Polos</md-button>
+            <md-button>Tops % Tunics</md-button>
+            <md-button>Shirts</md-button>
+            <md-button>Jeans</md-button>
+            <md-button>Trousers</md-button>
+            <md-button>Ethnic</md-button>
+        </md-card-actions>
+    </md-card>
+</div>
+<div layout="column">
+    <div flex>
+        <div layout=""row>
+            <h4 flex>DOWNLOAD THE APP</h4>
+            <
+        </div>
+    </div>
+    <div flex>
+
+    </div>
+    <div flex>
+
+    </div>
+</div>
